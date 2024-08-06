@@ -1,0 +1,32 @@
+.circle {
+  height: 13px;
+  width: 13px;
+  background-color: black;
+
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.spread {
+  height: 11px;
+  width: 11px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(23, 23, 22);
+
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: spd 0.6s ease-in-out;
+}
+@keyframes spd {
+  0% {
+    scale: 0;
+    visibility: 1;
+  }
+  100% {
+    scale: 1.4;
+    visibility: 0;
+  }
+}
